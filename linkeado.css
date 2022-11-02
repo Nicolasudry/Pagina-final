@@ -34,6 +34,8 @@ header {
 .titulo {margin-top:5vw;
   margin-bottom: 3vw;
   background-color: aliceblue;
-font-size: 3vw;}
+font-size: 5vw;}
 .pie{background-color: aliceblue;
 font-size: 2vw;}
+.navegador{margin-top: 2vw;
+}
