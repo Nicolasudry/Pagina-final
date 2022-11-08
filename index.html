@@ -74,9 +74,9 @@
                 <div class="card-body">
                   <h5 class="card-title">$14500</h5>
                   <p class="card-text">Zapato de vestir negro, hecho de cuerina. Talle entre 37 y 46.</p>
-                  <input type="text" name="texto1" value="Ingrese un talle" /><br />
+                  <input type="number" min="37" max="46" id="talleh1" name="texto1" value="Ingrese un talle" /><br />
                       <button type="button" class="btn btn-outline-dark"
-                      onclick="palcarrito(37,46,39,14500, 'Zapato negro hombre' )">Añadir al carro</button>
+                      onclick="palcarrito(talleh1,14500, 'Zapato negro hombre' )">Añadir al carro</button>
                 </div>
               </div>
             </div>
@@ -92,9 +92,9 @@
                     <div class="card-body">
                       <h5 class="card-title">$13500</h5>
                       <p class="card-text">Zapato de vestir marron con suela oscura, hecho de cuerina y mezclas de poliester. Talle entre 37 y 46</p>
-                      <input type="text" name="texto1" value="Ingrese un talle" /><br />
+                      <input type="number" min="37" max="46" id="talleh2" name="texto1" value="Ingrese un talle" /><br />
                       <button type="button" class="btn btn-outline-dark"
-                      onclick="palcarrito(37,46,38,13500, 'Zapato marron hombre' )" >Añadir al carro</button>
+                      onclick="palcarrito(38,13500, 'Zapato marron hombre' )" >Añadir al carro</button>
                       
                     </div>
                   </div>
@@ -117,9 +117,9 @@
                     <div class="card-body">
                       <h5 class="card-title">$11500</h5>
                       <p class="card-text">Zapato de vestir marron claro para mujer. Hecho de cuerina y mezclas de poliester. Talles entre 33 y 40</p>
-                      <input type="text" name="texto1" value="Ingrese un talle" /><br />
+                      <input type="number" min="33" max="40" id="tallem1" name="texto1" value="Ingrese un talle" /><br />
                       <button type="button" class="btn btn-outline-dark"
-                      onclick="palcarrito(33,40,35,11500, 'Zapato marron mujer' )">Añadir al carro</button>
+                      >Añadir al carro</button>
                       
 
                       
@@ -138,8 +138,8 @@
                         <div class="card-body">
                           <h5 class="card-title">$12500</h5>
                           <p class="card-text">Zapato de vestir negro para mujer. Hecho de cuerina y lona.Viene entre las talles 33 y 40.</p>
-                          <input type="text" name="texto1" value="Ingrese un talle" id=talleM2/><br />
-                      <button type="button" class="btn btn-outline-dark" onclick="palcarrito(33,40,tallem2,12500, 'Zapato negro mujer')">Añadir al carro
+                          <input type="number" min="33" max="40" id="tallem2" name="texto1" value="Ingrese un talle"/><br />
+                      <button type="button" class="btn btn-outline-dark" id="botonm2">Añadir al carro
                         </button>
                       
                         </div>
@@ -154,7 +154,7 @@
                   <h3 class="itemCartTotal" id="Total">Total: $0</h3>
                 </div>
                   <h3 class="itemCartTotal" id="Items">Items:</h3>
-                  <button type="button" class="btn btn-primary " onclick="Borrar()">Vaciar Carrito</button>
+                  <button type="button" class="btn btn-primary " id="vaciador">Vaciar Carrito</button>
                   
                 </div>
                 
