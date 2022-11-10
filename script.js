@@ -46,3 +46,7 @@ document.querySelector("#botonh1").addEventListener("click",function () {palcarr
 document.querySelector("#botonh2").addEventListener("click",function(){palcarrito(13500,'zapato marron hombre')})
 document.querySelector("#botonm2").addEventListener("click",function() {palcarrito(12500,'Zapato negro mujer')})
 
+let vtallem2= document.getElementById("#tallem2")
+let vtallem1= document.getElementById("#tallem1")
+let vtalleh1= document.getElementById("#talleh1")
+let vtalleh2= document.getElementById("#talleh2")
