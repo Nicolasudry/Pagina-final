@@ -10,33 +10,29 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar bg-light">
-         
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./Fotos/budiak logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                Budiak
-              </a>
-              <a class="navbar-brand" href="#Hombre">Hombre</a>
-              <a class="navbar-brand" href="#Mujer" >Mujer</a>
-              <a class="navbar-brand" href="#Carro">Carro</a>
-              
-              
-            
-              
-            </div>
-                </div>
-              </div>
-            </div>
+  <header>
+    <nav class="navbar bg-light">
+     
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./Fotos/budiak logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Budiak
+        </a>
+        <a class="navbar-brand" href="#Hombre">Hombre</a>
+        <a class="navbar-brand" href="#Mujer" >Mujer</a>
+        <a class="navbar-brand" href="#Carro">Carro</a>
           
-          </nav>
+          
         
-    </header>
+          
+      </div>
+           
+        
+  </header>
 
         
-    <main>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="container">
+  <main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="container">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./Fotos/zapatos-carousel1.jpg" class="d-block w-100" alt="...">
@@ -57,125 +53,161 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
+    <div class="container text-center" >    
+      <div class="titulo" id="Hombre">Hombre</div>           
       </div>
-        <div class="container text-center" >
-            
-                <div class="titulo" id="Hombre">Hombre</div>
-                
-             
-        </div>
-        <div class="container">
+      <div class="container">
         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./Fotos/zapato-hombre-1.jpg" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">$14500</h5>
-                  <p class="card-text">Zapato de vestir negro, hecho de cuerina. Talle entre 37 y 46.</p>
-                  <input type="number" min="37" max="46" id="talleh1" name="texto1" value="Ingrese un talle" /><br />
-                      <button type="button" class="btn btn-outline-dark"
-                      id="botonh1">Añadir al carro</button>
-                </div>
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./Fotos/zapato-hombre-1.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">$14500</h5>
+                <p class="card-text">Zapato de vestir negro, hecho de cuerina. Talle entre 37 y 46.</p>
+                <form>
+                  Seleccione un talle:
+                  <select id="talleh1">
+                    
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                  </select>
+                </form>
+                  <button type="button" class="btn btn-outline-dark"
+                  id="botonh1">Añadir al carro</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="container">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="./Fotos/zapato-hombre-2.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">$13500</h5>
-                      <p class="card-text">Zapato de vestir marron con suela oscura, hecho de cuerina y mezclas de poliester. Talle entre 37 y 46</p>
-                      <input type="number" min="37" max="46" id="talleh2" name="texto1" value="Ingrese un talle" /><br />
-                      <button type="button" class="btn btn-outline-dark"
-                      id="botonh2" >Añadir al carro</button>
-                      
-                    </div>
-                  </div>
+    </div>
+    <div class="container">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./Fotos/zapato-hombre-2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">$13500</h5>
+                  <p class="card-text">Zapato de vestir marron con suela oscura, hecho de cuerina y mezclas de poliester. Talle entre 37 y 46</p>
+                  <form>
+                    Seleccione un talle:
+                    <select id="talleh2">
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                      <option value="40">40</option>
+                      <option value="41">41</option>
+                      <option value="42">42</option>
+                      <option value="43">43</option>
+                      <option value="44">44</option>
+                      <option value="45">45</option>
+                      <option value="46">46</option>
+                      </select>
+                    </form>
+                    <button type="button" class="btn btn-outline-dark"
+                    id="botonh2" >Añadir al carro</button>
+                    
                 </div>
               </div>
-            </div>
-            <div class="container text-center" >
-            
-                <div class="titulo" id="Mujer">Mujer</div>
-                
-             
         </div>
-        <div class="container">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="./Fotos/zapato-mujer-1.webp" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">$11500</h5>
-                      <p class="card-text">Zapato de vestir marron claro para mujer. Hecho de cuerina y mezclas de poliester. Talles entre 33 y 40</p>
-                      <input type="number" min="33" max="40" id="tallem1" name="texto1" value="Ingrese un talle" /><br />
-                      <button type="button" class="btn btn-outline-dark" id="botonm1"
-                      >Añadir al carro</button>
-                      
-
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
+      </div>
+    </div>
+      <div class="container text-center" >      
+        <div class="titulo" id="Mujer">Mujer</div>           
+      </div>
+    <div class="container">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./Fotos/zapato-mujer-1.webp" class="img-fluid rounded-start" alt="...">
             </div>
-            <div class="container">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./Fotos/zapato-mujer-2.jpg" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">$12500</h5>
-                          <p class="card-text">Zapato de vestir negro para mujer. Hecho de cuerina y lona.Viene entre las talles 33 y 40.</p>
-                          <input type="number" min="33" max="40" id="tallem2" name="texto1" value="Ingrese un talle"/><br />
-                      <button type="button" class="btn btn-outline-dark" id="botonm2">Añadir al carro
-                        </button>
-                      
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="container text-center" >
-            
-                  <div class="titulo" id="Carro">Carro</div>
-                  <div class="zona_calculo">
-                  <h3 class="itemCartTotal" id="Total">Total: $0</h3>
-                </div>
-                  <h3 class="itemCartTotal" id="Items">Items:</h3>
-                  <button type="button" class="btn btn-primary " id="vaciador">Vaciar Carrito</button>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">$11500</h5>
+                <p class="card-text">Zapato de vestir marron claro para mujer. Hecho de cuerina y mezclas de poliester. Talles entre 33 y 40</p>
+                <form>
+                  Seleccione un talle:
+                  <select id="tallem1">        
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                  </select>
+                </form>
                   
-                </div>
-                
-                
-    </main>
-
-      
-<footer>
-    
-        <div class="pie">
-          
-            <div>Contactanos:</div>
-    <div><img src="./Fotos/budiak logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">BudiakArg</div>
-    <div><img src="./Fotos/Instagram_logo_2016.svg.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">BudiakArg</div>
-    <div><img src="./Fotos/whatsapp logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">+54 911 0000 0000</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
-</div>
-
-</footer>
-
-    
+                  <button type="button" class="btn btn-outline-dark" id="botonm1"
+                  >Añadir al carro</button>
+                  
+                  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./Fotos/zapato-mujer-2.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">$12500</h5>
+              <p class="card-text">Zapato de vestir negro para mujer. Hecho de cuerina y lona.Viene entre las talles 33 y 40.</p>              
+                <form>
+                  Seleccione un talle:
+                  <select id="tallem2">                      
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                  </select>
+                </form>               
+              <button type="button" class="btn btn-outline-dark" id="botonm2">Añadir al carro</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center" >
+      <div class="titulo" id="Carro">Carro</div>
+      <div class="zona_calculo">
+      <h3 class="itemCartTotal" id="Total">Total: $0</h3>
+      </div>
+      <h3 class="itemCartTotal" id="Items">Items:</h3>
+      <button type="button" class="btn btn-primary " id="vaciador">Vaciar Carrito</button>     
+    </div>                            
+  </main>      
+  <footer>      
+    <div class="pie">
+      <div class="flex-container">      
+        <div>Contactanos:</div>
+        <div><a href="#"><img src="./Fotos/budiak logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">BudiakArg</a></div>
+        <div><a href="https://www.instagram.com/budiakarg/"><img src="./Fotos/Instagram_logo_2016.svg.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">BudiakArg</a></div>
+        <div><a href="#"><img src="./Fotos/whatsapp logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">+54 911 0000 0000</a></div>
+        <!-- No linkeo wpp-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </footer>    
 </body>
 </html>
